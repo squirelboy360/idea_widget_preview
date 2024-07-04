@@ -61,7 +61,6 @@ class MyComponent extends StatelessWidget {
 
 /// Implementations should not be private, but this is just an example
 class _DemoProvider extends PreviewProvider {
-  @override
   Widget build(BuildContext context) {
     return MyComponent(text: "Demo");
   }

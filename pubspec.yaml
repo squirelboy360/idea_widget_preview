@@ -4,15 +4,12 @@ version: 2.0.0
 homepage: https://github.com/andrasferenczi/idea_widget_preview
 
 environment:
-  sdk: '>=2.17.6 <3.0.0'
-  flutter: ">=3.0.0"
+  sdk: ^3.4.3
 
+# Add regular dependencies here.
 dependencies:
-  flutter:
-    sdk: flutter
-
   meta: ^1.12.0
-  analyzer: ^6.7.0
+  analyzer: ^6.4.0
   collection: ^1.16.0
   device_frame: ^1.2.0
   flutter_hooks: ^0.20.5
@@ -22,12 +19,5 @@ dependencies:
   shelf_router: ^1.1.4
 
 dev_dependencies:
-  dart_style: ^2.3.6
-  lints: ^2.1.1
-  test: ^1.25.8
-
-# dependency_overrides:
-#   meta: ^1.12.0
-
-flutter:
-  uses-material-design: true
+  lints: ^3.0.0
+  test: ^1.24.0
